@@ -1,0 +1,44 @@
+{
+    "paths": {
+        "core": "\/core\/",
+        "helpers": "\/helpers\/",
+        "modules": "\/modules\/",
+        "public": "\/public\/",
+        "js": "\/public\/js\/",
+        "error-log": "",
+        "css": "\/public\/css\/"
+    },
+    "meta": {
+        "author": "myapplication",
+        "charset": "UTF-8",
+        "description": "my application",
+        "language": "EN",
+        "robots": "noindex, nofollow",
+        "title": "my application",
+        "keywords": "my application, prototypemvc, skeleton"
+    },
+    "databases": {
+        "default": {
+            "type": "mysql",
+            "host": "localhost",
+            "name": "database",
+            "user": "user",
+            "pass": "password"
+        }
+    },
+    "environment": {
+        "live": "development",
+        "development": {
+            "timezone": "UTC",
+            "display-errors": true
+        },
+        "production": {
+            "timezone": "UTC",
+            "display-errors": false
+        }
+    },
+    "session": {
+        "timeout": "3600",
+        "prefix": "prototypemvc_"
+    }
+}
